@@ -3,10 +3,10 @@ import React, { Component } from 'react'
 export class ContactDet extends Component {
   render() {
     return (
-      <div className="m-4 grid text-center">
+      <div className="m-4 text-center d-flex flex-lg-row flex-column">
         <div className="g-col-3">
             <h2>Academic and Administrative Support</h2>
-            <p>
+            <p className='text-danger fs-4 fw-bold'>
             Prof. Priti Kumar Roy
             </p>
             <p>Organizing secretary
@@ -18,7 +18,7 @@ export class ContactDet extends Component {
             Phone: +9133 24572736
             E-mail: ptritiju@gmail.com
             </p>
-            <p>
+            <p className='text-danger fs-4 fw-bold'>
             Prof. Pratulananda Das
             </p>
             <p>
@@ -33,7 +33,7 @@ export class ContactDet extends Component {
         </div>
         <div className="g-col-3">
             <h2>Any Local Assistance or Query About Conference</h2>
-            <p>
+            <p className='text-danger fs-4 fw-bold'>
             Mr. Sudip Chakraborty
             </p>
             <p>
@@ -45,7 +45,7 @@ export class ContactDet extends Component {
             Mob: +91 9432849311
             E-mail: sudip2205@gmail.com
             </p>
-            <p>
+            <p className='text-danger fs-4 fw-bold'>
             Mr. Amit Kumar Roy
             </p>
             <p>

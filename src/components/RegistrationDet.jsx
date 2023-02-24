@@ -15,9 +15,9 @@ export class RegistrationDet extends Component {
             <p style={{color: 'white'}}>Accompanying Person: $ 200 (Foreign)</p>
         </div>
         <div className="g-col-4"></div>
-        <div className="g-col-4 p-5 m-3">
-            <div className="bg-warning p-3 rounded">
-                <h2>Instructions :</h2>
+        <div className="g-col-4">
+            <div className="bg-warning p-3 rounded m-3">
+                <h2>Instructions:</h2>
                 <p>Step 1: Click below and download the registration form.</p>
                 <p>Step 2: Fill the form carefully.</p>
                 <p>Step 3: Scan the filled form and send it through mail.</p>

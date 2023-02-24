@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export class RegistrationDet extends Component {
   render() {
     return (
-      <div className="text-center m-5 d-flex flex-lg-row flex-sm-column flex-md-column flex-xs-column justify-content-around" style={{backgroundImage: "url('https://static.wixstatic.com/media/9060071fa0ea43ba92de11348b5a9c4f.jpg/v1/fill/w_977,h_501,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/9060071fa0ea43ba92de11348b5a9c4f.jpg')"}}>
+      <div className="text-center m-5 d-flex flex-column flex-lg-row flex-md-row justify-content-around" style={{backgroundImage: "url('https://static.wixstatic.com/media/9060071fa0ea43ba92de11348b5a9c4f.jpg/v1/fill/w_977,h_501,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/9060071fa0ea43ba92de11348b5a9c4f.jpg')"}}>
         <div className="g-col-4 bg-primary p-5 rounded m-3">
             <h2 style={{color: 'white'}}>Registration Fees:</h2>
             <p style={{color: 'white'}}>Faculty/ Academician: Rs. 4,000/-(Indian)</p>

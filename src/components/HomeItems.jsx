@@ -24,8 +24,8 @@ export class HomeItems extends Component {
             <p style={{textAlign: 'justify'}}>Authors of chosen papers may be required to correct/modify/update their papers according to the feedback received in the peer review. The decision of the reviewers will be final.</p>
         </div>
         <div className="g-col-4"></div>
-        <div className="g-col-4">
-          <div className="rounded">
+        <div className="g-col-4 mx-lg-4">
+          <div className="rounded m-auto">
             <div className="d-flex flex-row">
               <img src="https://static.wixstatic.com/media/485cee_b1223458cd414136860b3bd7341639dd~mv2.gif" alt="" />
               <p className="text-primary fw-bold fs-3 my-auto ml-5">Call For Papers:</p>

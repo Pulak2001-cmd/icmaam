@@ -4,7 +4,7 @@ export class HomeItems extends Component {
   render() {
     return (
       <div className="text-center mx-5 d-flex flex-column flex-lg-row flex-md-row justify-content-around">
-        <div className="g-col-4">
+        <div className="col-lg-5 col-md-4">
             <div className="d-flex flex-row">
               <img src="https://static.wixstatic.com/media/485cee_b1223458cd414136860b3bd7341639dd~mv2.gif" alt="" />
               <p className="text-primary fw-bold fs-3 my-auto ml-5">Conference Publications:</p>
@@ -23,8 +23,8 @@ export class HomeItems extends Component {
             </ul>
             <p style={{textAlign: 'justify'}}>Authors of chosen papers may be required to correct/modify/update their papers according to the feedback received in the peer review. The decision of the reviewers will be final.</p>
         </div>
-        <div className="g-col-4"></div>
-        <div className="g-col-4 mx-lg-4">
+        {/* <div className="col-lg-3"></div> */}
+        <div className="col-lg-2 col-md-4 mx-lg-4 w-lg-50">
           <div className="rounded m-auto">
             <div className="d-flex flex-row">
               <img src="https://static.wixstatic.com/media/485cee_b1223458cd414136860b3bd7341639dd~mv2.gif" alt="" />

@@ -10,7 +10,7 @@ export class TopBar extends Component {
             <p style={{fontSize: 18}}>Kolkata, India</p>
         </div>
         <div className='g-col-8 m-auto p-2'>
-            <p style={{color: 'red', fontSize: 25, fontWeight: 'bold'}}>International Conference on Mathematical Analysis and Application in Modeling</p>
+            <p style={{color: 'red', fontSize: 25, fontWeight: 'bold'}}>2nd International Conference on Mathematical Analysis and Application in Modeling</p>
             <p style={{color: 'red', fontSize: 25, fontWeight: 'bold'}}>(ICMAAM 2023)</p>
             <p style={{fontSize: 18}}>Organised By
             Department of Mathematics, Jadavpur University</p>

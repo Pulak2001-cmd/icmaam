@@ -61,8 +61,20 @@ export class ContactDet extends Component {
         <div className="g-col-6">
             <div className="bg-primary rounded p-4 m-4">
             <h4>You may Contact with Organizing Team of ICMAAM 2023 Using the Message Box</h4>
+            <form className="d-flex flex-column flex-lg-row flex-md-row flex-sm-row">
+              <div className="d-flex flex-column mx-auto">
+                <input type="text" placeholder="Name" className="bg-dark" style={{height: 30, borderRadius: 5, width: 200}} />
+                <input type="email" placeholder="Email" className="bg-dark"  style={{height: 30, borderRadius: 5}}/>
+                <input type="Subject" placeholder="Subject" className="bg-dark"  style={{height: 30, borderRadius: 5}}/>
+              </div>
+              <div className='my-auto'>
+                <textarea placeholder="Message" className="bg-dark"  style={{height: 90, borderRadius: 5, width: 200}}/>
+              </div>
+            </form>
+            <div className="d-flex justify-content-lg-end justify-content-center">
+            <button className="btn btn-warning">Send</button>
             </div>
-
+            </div>
         </div>
       </div>
     )

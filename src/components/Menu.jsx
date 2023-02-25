@@ -13,7 +13,7 @@ export class Menu extends Component {
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav" style={{margin: 'auto'}}>
               <li class="nav-item">
-                <Link class="nav-link active" aria-current="page" to="/">Home</Link>
+                <Link class="nav-link" aria-current="page" to="/">Home</Link>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -26,10 +26,10 @@ export class Menu extends Component {
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Organization</a>
+                <Link class="nav-link" to="/organization">Organization</Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Speakers</a>
+                <Link class="nav-link" to="/speakers">Speakers</Link>
               </li>
               <li class="nav-item">
                 <Link class="nav-link" to="/registration">Registration</Link>

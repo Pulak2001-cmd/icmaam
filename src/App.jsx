@@ -7,6 +7,8 @@ import DepartmentAbout from './components/DepartmentAbout';
 import UniversityAbout from './components/UniversityAbout';
 import Registration from './components/Registration';
 import Contact from './components/Contact';
+import Organization from './components/Organization';
+import Speakers from './components/Speakers';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +21,8 @@ function App() {
       <Route path="/university" element={<UniversityAbout />} />
       <Route path="/registration" element={<Registration />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/organization" element={<Organization />} />
+      <Route path="/speakers" element={<Speakers />} />
     </Routes>
   )
 }

@@ -31,7 +31,7 @@ export class HomeItems extends Component {
               <p className="text-primary fw-bold fs-3 my-auto ml-5">Call For Papers:</p>
             </div>
             <p className="text-danger fw-200" style={{textAlign: 'justify', backgroundImage: "url('https://static.wixstatic.com/media/485cee_36bf522e2ea44e609ea36c682389b65d~mv2.gif')", backgroundRepeat: 'no-repeat'}}>
-            Papers pertaining to conference areas of interest, as listed in “Aims and Scopes”, are invited for ICMAAM-2023. The authors are requested to submit their original full length research papers which are not being under consideration for publication by any other journal or conference, latest by April 30th, 2023 at the email: icmaam2023@gmail.com
+            Papers pertaining to conference areas of interest, as listed in “Aims and Scopes”, are invited for ICMAAM-2023. The authors are requested to submit their original full length research papers which are not being under consideration for publication by any other journal or conference, latest by August 31st, 2023 at the email: icmaam2023@gmail.com
             </p>
             </div>
         </div>

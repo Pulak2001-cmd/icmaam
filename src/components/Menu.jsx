@@ -38,10 +38,11 @@ export class Menu extends Component {
                 <Link class="nav-link" to="/contact">Contact Us</Link>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <Link class="nav-link dropdown-toggle" to="/travel" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   How to reach
-                </a>
+                </Link>
                 <ul class="dropdown-menu">
+                  <li><Link class="dropdown-item" to="/travel">How to Reach</Link></li>
                   <li><a class="dropdown-item" href="#">From Dumdum Airport</a></li>
                   <li><a class="dropdown-item" href="#">From Howrah Railway Station</a></li>
                   <li><a class="dropdown-item" href="#">From Sealdah Railway Station</a></li>

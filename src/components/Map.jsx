@@ -2,8 +2,8 @@ import React from 'react'
 import { GoogleMap, useJsApiLoader, Marker, InfoWindow } from '@react-google-maps/api';
 
 const containerStyle = {
-  width: '400px',
-  height: '400px'
+  width: '100%',
+  height: '300px'
 };
 
 function Map({Lat, Lng, Name}) {
@@ -34,18 +34,19 @@ function Map({Lat, Lng, Name}) {
           <GoogleMap
             mapContainerStyle={containerStyle}
             center={center}
-            zoom={10}
+            zoom={9}
             onLoad={onLoad}
             onUnmount={onUnmount}
+            onClick={e=> console.log(e.latLng.lat()+" "+e.latLng.lng())}
           >
             { /* Child components, such as markers, info windows, etc. */ }
             <>
             <Marker position={{lat: center.lat, lng: center.lng}} />
-            <InfoWindow position={{lat: center.lat, lng: center.lng}}>
+            {/* <InfoWindow position={{lat: center.lat, lng: center.lng}}>
                 <div>
-                    <p className="fs-3">{Name}</p>
+                    <p className="fs-7">{Name}</p>
                 </div>
-            </InfoWindow>
+            </InfoWindow> */}
             </>
           </GoogleMap>
       ) : <></>

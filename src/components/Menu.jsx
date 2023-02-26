@@ -43,7 +43,7 @@ export class Menu extends Component {
                 </Link>
                 <ul class="dropdown-menu">
                   <li><Link class="dropdown-item" to="/travel">How to Reach</Link></li>
-                  <li><a class="dropdown-item" href="#">From Dumdum Airport</a></li>
+                  <li><Link class="dropdown-item" to="/dumdum">From Dumdum Airport</Link></li>
                   <li><a class="dropdown-item" href="#">From Howrah Railway Station</a></li>
                   <li><a class="dropdown-item" href="#">From Sealdah Railway Station</a></li>
                   <li><a class="dropdown-item" href="#">From Kolkata Railway Station</a></li>

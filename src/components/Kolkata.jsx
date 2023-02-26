@@ -1,20 +1,20 @@
 import React, { Component } from 'react'
-import Caraousel from './Caraousel11'
-import HowrahDet from './HowrahDet'
+import Caraousel from './Caraousel13'
+import KolkataDet from './KolkataDet'
 import Menu from './Menu'
 import TopBar from './TopBar'
 
-export class Howrah extends Component {
+export class Kolkata extends Component {
   render() {
     return (
       <div>
         <TopBar />
         <Menu />
         <Caraousel />
-        <HowrahDet />
+        <KolkataDet />
       </div>
     )
   }
 }
 
-export default Howrah
+export default Kolkata

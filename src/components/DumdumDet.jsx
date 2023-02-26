@@ -12,10 +12,10 @@ export class DumdumDet extends Component {
         </ul>
         <div className="text-center mx-5 d-flex flex-column flex-lg-row flex-md-row justify-content-around my-2">
             <div className="col-lg-3 m-2">
-                <Map Lat={22.6531} Lng={88.4449} Name="Netaji Subhash Chandra Bose International Airport (CCU), Jessore Rd, Dum Dum, Kolkata, West Bengal 700052, India" />
+                <Map Lat={22.65312864370238} Lng={88.44487391552143} Name="Netaji Subhash Chandra Bose International Airport (CCU), Jessore Rd, Dum Dum, Kolkata, West Bengal 700052, India" />
             </div>
             <div className="col-lg-3 m-2">
-                <Map Lat={22.65312864370238} Lng={88.44487391552143} Name="Jadavpur, Kolkata, West Bengal 700032, India" />
+                <Map Lat={22.499313} Lng={88.371849} Name="Jadavpur, Kolkata, West Bengal 700032, India" />
             </div>
         </div>
       </div>

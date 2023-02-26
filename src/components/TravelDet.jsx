@@ -6,10 +6,10 @@ export class TravelDet extends Component {
     return (
       <div className="m-4">
         <div className="text-center mx-5 d-flex flex-column flex-lg-row flex-md-row justify-content-around">
-            <div className="col-lg-3 btn btn-success mx-3 my-2"><Link className="nav-link" to="">From Dumdum Airport</Link></div>
-            <div className="col-lg-3 btn btn-success mx-3 my-2"><Link className="nav-link" to="">From Howrah Railway Station</Link></div>
-            <div className="col-lg-3 btn btn-success mx-3 my-2"><Link className="nav-link" to="">From Sealdah Railway Station</Link></div>
-            <div className="col-lg-3 btn btn-success mx-3 my-2"><Link className="nav-link" to="">From Kolkata Railway Station</Link></div>
+            <div className="col-lg-3 btn btn-success mx-3 my-2"><Link className="nav-link" to="/dumdum">From Dumdum Airport</Link></div>
+            <div className="col-lg-3 btn btn-success mx-3 my-2"><Link className="nav-link" to="/howrah">From Howrah Railway Station</Link></div>
+            <div className="col-lg-3 btn btn-success mx-3 my-2"><Link className="nav-link" to="/sealdah">From Sealdah Railway Station</Link></div>
+            <div className="col-lg-3 btn btn-success mx-3 my-2"><Link className="nav-link" to="/kolkata">From Kolkata Railway Station</Link></div>
         </div>
         <h3>Travel Information</h3>
         <p style={{textAlign: 'justify'}}>

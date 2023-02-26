@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import { Route, Routes } from "react-router-dom"
 import Home from './components/Home';
 import ConferenceAbout from './components/ConferenceAbout';
@@ -12,6 +11,8 @@ import Speakers from './components/Speakers';
 import Travel from './components/Travel';
 import Dumdum from './components/Dumdum';
 import Howrah from './components/Howrah';
+import Sealdah from './components/Sealdah';
+import Kolkata from './components/Kolkata';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -29,6 +30,8 @@ function App() {
       <Route path="/travel" element={<Travel />} />
       <Route path="/dumdum" element={<Dumdum />} />
       <Route path="/howrah" element={<Howrah />} />
+      <Route path="/sealdah" element={<Sealdah />} />
+      <Route path="/kolkata" element={<Kolkata />} />
     </Routes>
   )
 }

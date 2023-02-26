@@ -44,9 +44,9 @@ export class Menu extends Component {
                 <ul class="dropdown-menu">
                   <li><Link class="dropdown-item" to="/travel">How to Reach</Link></li>
                   <li><Link class="dropdown-item" to="/dumdum">From Dumdum Airport</Link></li>
-                  <li><a class="dropdown-item" href="#">From Howrah Railway Station</a></li>
-                  <li><a class="dropdown-item" href="#">From Sealdah Railway Station</a></li>
-                  <li><a class="dropdown-item" href="#">From Kolkata Railway Station</a></li>
+                  <li><Link class="dropdown-item" to="/howrah">From Howrah Railway Station</Link></li>
+                  <li><Link class="dropdown-item" to="/sealdah">From Sealdah Railway Station</Link></li>
+                  <li><Link class="dropdown-item" to="/kolkata">From Kolkata Railway Station</Link></li>
                 </ul>
               </li>
               <li class="nav-item">

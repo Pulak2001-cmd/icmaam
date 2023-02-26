@@ -10,7 +10,7 @@ export class Caraousel extends Component {
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="5000">
-                <img src="https://static.wixstatic.com/media/485cee_435e1c7b43ca41cdbf097d52c567f038~mv2.jpg/v1/fill/w_800,h_181,al_c,q_80,enc_auto/485cee_435e1c7b43ca41cdbf097d52c567f038~mv2.jpg" class="d-block w-100 h-50" alt="..." />
+                <img src="https://static.wixstatic.com/media/485cee_0ebb82478d024c0f9694193f350a6a15~mv2.jpg/v1/fill/w_980,h_217,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/485cee_0ebb82478d024c0f9694193f350a6a15~mv2.jpg" class="d-block w-100 h-50" alt="..." />
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

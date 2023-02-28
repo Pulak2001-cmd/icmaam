@@ -8,8 +8,6 @@ export class Sealdah extends Component {
   render() {
     return (
       <div>
-        <TopBar />
-        <Menu />
         <Caraousel />
         <SealdahDet />
       </div>

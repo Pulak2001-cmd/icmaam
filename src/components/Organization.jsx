@@ -8,8 +8,6 @@ export class Organization extends Component {
   render() {
     return (
       <div>
-        <TopBar />
-        <Menu />
         <Caraousel />
         <OrganizationDet />
       </div>

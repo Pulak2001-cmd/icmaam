@@ -8,8 +8,6 @@ export class ConferenceAbout extends Component {
   render() {
     return (
       <div>
-        <TopBar />
-        <Menu />
         <Caraousel />
         <ConferenceDet />
       </div>

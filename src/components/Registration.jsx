@@ -8,8 +8,6 @@ export class Registration extends Component {
   render() {
     return (
       <div>
-        <TopBar />
-        <Menu />
         <Caraousel />
         <RegistrationDet />
       </div>

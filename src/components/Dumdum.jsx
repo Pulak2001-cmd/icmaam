@@ -8,8 +8,6 @@ export class Dumdum extends Component {
   render() {
     return (
       <div>
-        <TopBar />
-        <Menu />
         <Caraousel />
         <DumdumDet />
       </div>

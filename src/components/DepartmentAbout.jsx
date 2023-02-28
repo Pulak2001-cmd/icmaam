@@ -8,8 +8,6 @@ export class DepartmentAbout extends Component {
   render() {
     return (
       <div>
-        <TopBar />
-        <Menu />
         <Caraousel />
         <DepartmentDet />
       </div>

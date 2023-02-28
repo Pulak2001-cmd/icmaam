@@ -8,8 +8,6 @@ export class Howrah extends Component {
   render() {
     return (
       <div>
-        <TopBar />
-        <Menu />
         <Caraousel />
         <HowrahDet />
       </div>

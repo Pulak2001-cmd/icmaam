@@ -8,8 +8,6 @@ export class Speakers extends Component {
   render() {
     return (
       <div>
-        <TopBar />
-        <Menu />
         <Caraousel />
         <SpeakersDet />
       </div>

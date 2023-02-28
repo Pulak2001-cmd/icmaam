@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { Route, Routes } from "react-router-dom"
 import Home from './components/Home';
 import ConferenceAbout from './components/ConferenceAbout';
@@ -13,11 +12,16 @@ import Dumdum from './components/Dumdum';
 import Howrah from './components/Howrah';
 import Sealdah from './components/Sealdah';
 import Kolkata from './components/Kolkata';
+import Footer from './components/Footer';
+import TopBar from './components/TopBar';
+import Menu from './components/Menu';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
+    <>
+    <TopBar />
+    <Menu />
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/conference" element={<ConferenceAbout />} />
@@ -33,6 +37,8 @@ function App() {
       <Route path="/sealdah" element={<Sealdah />} />
       <Route path="/kolkata" element={<Kolkata />} />
     </Routes>
+    <Footer />
+    </>
   )
 }
 

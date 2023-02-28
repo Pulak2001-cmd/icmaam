@@ -79,7 +79,7 @@ export class OrganizationDet extends Component {
             </div>
             <div className="col-lg-3 p-3">
                 <h2 className='text-danger'>Chairman</h2>
-                <p className='text-primary'>Prof. Ashish Kumar Sarkar</p>
+                <p className='text-primary'>Prof. (Dr.) Saghnik Sinha</p>
                 <p className='text-info'>Head, Department of Mathematics, Jadavpur University</p>
             </div>
             <div className="col-lg-3 p-3">
@@ -87,7 +87,7 @@ export class OrganizationDet extends Component {
                 <p className='text-primary'>Prof. Priti Kumar Roy</p>
                 <p className='text-info'>Department Of Mathematics, Jadavpur University</p>
                 <h2 className='text-danger'>Executive Secretary</h2>
-                <p className='text-primary'>Prof. Pratulanda Das</p>
+                <p className='text-primary'>Prof. Nandadulal Bairagi</p>
                 <p className='text-info'>Department Of Mathematics, Jadavpur University</p>
             </div>
         </div>

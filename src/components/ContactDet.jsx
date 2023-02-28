@@ -19,7 +19,7 @@ export class ContactDet extends Component {
             E-mail: ptritiju@gmail.com
             </p>
             <p className='text-danger fs-4 fw-bold'>
-            Prof. Pratulananda Das
+            Prof. Nandadulal Bairagi
             </p>
             <p>
             Executive secretary
@@ -34,7 +34,7 @@ export class ContactDet extends Component {
         <div className="g-col-3">
             <h2>Any Local Assistance or Query About Conference</h2>
             <p className='text-danger fs-4 fw-bold'>
-            Mr. Sudip Chakraborty
+            Mr. Salil Ghosh
             </p>
             <p>
             Research Fellow
@@ -42,11 +42,11 @@ export class ContactDet extends Component {
             Jadavpur University,
             Kolkata-700032,
             India
-            Mob: +91 9432849311
+            Mob: +91 9874642115
             E-mail: sudip2205@gmail.com
             </p>
             <p className='text-danger fs-4 fw-bold'>
-            Mr. Amit Kumar Roy
+            Mr. Satyajit Mukherjee
             </p>
             <p>
             Research Fellow
@@ -54,7 +54,7 @@ export class ContactDet extends Component {
             Jadavpur University,
             Kolkata-700032,
             India
-            Mob: +91 9734242425
+            Mob: +91 6295732821
             E-mail: amit.jumath@gmail.com
             </p>
         </div>

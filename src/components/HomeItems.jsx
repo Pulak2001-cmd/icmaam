@@ -16,8 +16,8 @@ export class HomeItems extends Component {
               <li style={{textAlign: 'justify'}}>
               Full length papers presented in  ICMMAM-2023 will undergo a peer review process and selected papers will subsequently be published in special issues of the following journals:
               <ol>
-                <li value="1"><a href="">International Journal of Biomathematics and System Biology</a></li>
-                <li><a href="">Bulletin of Calcutta Mathematical Society/Journal of Calcutta Mathematical Society</a></li>
+                <li value="1"><a href="http://biomathsociety.in/ijbsb.html" target="_blank">International Journal of Biomathematics and System Biology</a></li>
+                <li><a href="https://www.worldcat.org/title/875137801">Bulletin of Calcutta Mathematical Society/Journal of Calcutta Mathematical Society</a></li>
               </ol>
               </li>
             </ul>

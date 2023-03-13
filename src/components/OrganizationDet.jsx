@@ -74,13 +74,18 @@ export class OrganizationDet extends Component {
                 <h2 className="text-danger">Patron</h2>
                 <p className="text-primary">Prof. Amitava Dutta</p>
                 <p className="text-info">Pro-Vice Chancellor, Jadavpur University</p>
-                <p className='text-primary mt-3'>Prof. Subratanath Koner</p>
+                <p className="text-primary">Prof. Chiranjib Bhattacharya</p>
+                <p className="text-info">Pro-Vice Chancellor, Jadavpur University</p>
+                <p className='text-primary mt-3'>Prof. Subenoy Chakraborty.</p>
                 <p className='text-info'>Dean, Faculty of Science, Jadavpur University</p>
             </div>
             <div className="col-lg-3 p-3">
                 <h2 className='text-danger'>Chairman</h2>
                 <p className='text-primary'>Prof. (Dr.) Saghnik Sinha</p>
                 <p className='text-info'>Head, Department of Mathematics, Jadavpur University</p>
+                <h2 className='text-danger'>Treasurer</h2>
+                <p className='text-primary'>Prof (Dr.) Arindam Bhattacharya</p>
+                <p className='text-info'>Department of Mathematics, Jadavpur University</p>
             </div>
             <div className="col-lg-3 p-3">
                 <h2 className='text-danger'>Organizing Secretary</h2>

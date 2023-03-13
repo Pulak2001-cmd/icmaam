@@ -38,12 +38,12 @@ export class ContactDet extends Component {
             </p>
             <p>
             Research Fellow
-            Department of Mathematics,
+            Department of Mathe
             Jadavpur University,
             Kolkata-700032,
             India
             Mob: +91 9874642115
-            E-mail: sudip2205@gmail.com
+            E-mail: salilg.math.rs@jadavpuruniversity.in
             </p>
             <p className='text-danger fs-4 fw-bold'>
             Mr. Satyajit Mukherjee
@@ -55,7 +55,19 @@ export class ContactDet extends Component {
             Kolkata-700032,
             India
             Mob: +91 6295732821
-            E-mail: amit.jumath@gmail.com
+            E-mail: satyajitm.math.pg2@jadavpuniversity.in
+            </p>
+            <p className='text-danger fs-4 fw-bold'>
+            Mr. Homagnic Bose
+            </p>
+            <p>
+            Research Fellow
+            Department of Mathematics,
+            Jadavpur University,
+            Kolkata-700032,
+            India
+            Mob: +91 9830884820
+            E-mail: homagnic.b@gmail.co
             </p>
         </div>
         <div className="g-col-6">

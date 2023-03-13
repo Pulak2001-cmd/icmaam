@@ -72,11 +72,11 @@ export class OrganizationDet extends Component {
             </div>
             <div className="col-lg-3 p-3">
                 <h2 className="text-danger">Patron</h2>
-                <p className="text-primary">Prof. Amitava Dutta</p>
+                <p className="text-primary">Prof. (Dr.) Amitava Dutta</p>
                 <p className="text-info">Pro-Vice Chancellor, Jadavpur University</p>
-                <p className="text-primary">Prof. Chiranjib Bhattacharya</p>
+                <p className="text-primary">Prof. (Dr.) Chiranjib Bhattacharya</p>
                 <p className="text-info">Pro-Vice Chancellor, Jadavpur University</p>
-                <p className='text-primary mt-3'>Prof. Subenoy Chakraborty.</p>
+                <p className='text-primary mt-3'>Prof. (Dr.) Subenoy Chakraborty.</p>
                 <p className='text-info'>Dean, Faculty of Science, Jadavpur University</p>
             </div>
             <div className="col-lg-3 p-3">

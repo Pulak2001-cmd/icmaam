@@ -27,8 +27,8 @@ export class ContactDet extends Component {
             Jadavpur University,
             Kolkata-700032,
             India
-            Mobile: +918240618018
-            E-mail: pratulananda@yahoo.co.in 
+            Mobile: +919433110781
+            E-mail: nbairagi@yahoo.co.in
             </p>
         </div>
         <div className="g-col-3">

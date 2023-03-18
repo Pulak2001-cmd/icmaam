@@ -23,7 +23,7 @@ export class RegistrationDet extends Component {
                 <p>Step 3: Scan the filled form and send it through mail.</p>
                 <p>(E-mail: icmaam2023@gmail.com)</p>
             </div>
-            <Link target="_blank" to="https://f034d5c1-0863-42ee-9de7-2b1c3a8fe020.filesusr.com/ugd/485cee_4ae972cd221948d49cc45459e92996e5.pdf"><button className="btn btn-success m-2">Download</button></Link>
+            <Link target="_blank" to="https://docs.google.com/forms/d/e/1FAIpQLSfQw8wHPuiUZpQWRb_yMwYyuuuh7KIi4p2df-_sy7BQk467SQ/viewform?usp=pp_url "><button className="btn btn-success m-2">Go To Form</button></Link>
         </div>
       </div>
     )

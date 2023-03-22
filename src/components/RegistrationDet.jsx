@@ -45,7 +45,13 @@ export class RegistrationDet extends Component {
         <div className="g-col-4">
             <div className="bg-warning p-3 rounded m-3 justify-content-around">
                 <h2>Instructions:</h2>
-                <p>Step: Open the link and submit the form.</p>
+                <p>Step 1: Check registration fee for your category</p>
+                <p>Step 2: Make the payment to the following details and take a screenshot</p>
+                  <h5>Bank Details:</h5>
+                  <p>A/C No- 35779562283
+                    <br/>IFSC- SBIN0000093
+                    <br/>SBI Jadavpur University Branch</p>
+                <p>Step 3: Fillup the form and upload the screenshot in the form.</p>
             </div>
             <Link target="_blank" to="https://docs.google.com/forms/d/e/1FAIpQLSfQw8wHPuiUZpQWRb_yMwYyuuuh7KIi4p2df-_sy7BQk467SQ/viewform?usp=pp_url "><button className="btn btn-success m-2">Go To Form</button></Link>
         </div>

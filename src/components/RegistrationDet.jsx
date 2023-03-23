@@ -36,6 +36,7 @@ export class RegistrationDet extends Component {
             </ol>
             <ul style={{color: 'white'}}>
               <li>Registration fees are not required especially for plenary and invited speakers.</li>
+              <li>Registration fees can be submitted offline mode also, but it will be necessary to fill up the google form for confirmation purpose.</li>
             </ul>
             {/* <p style={{color: 'white'}}>Faculty/ Academician (Without accomodation): Rs. 4,000/-(Indian)</p>
             <p style={{color: 'white'}}>Research Scholar: Rs. 3,000/-(Indian)</p>

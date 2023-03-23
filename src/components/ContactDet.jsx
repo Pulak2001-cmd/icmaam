@@ -37,8 +37,8 @@ export class ContactDet extends Component {
             Mr. Salil Ghosh
             </p>
             <p>
-            Research Fellow
-            Department of Mathe
+            Senior Research Fellow
+            Department of Mathematics,
             Jadavpur University,
             Kolkata-700032,
             India
@@ -49,7 +49,7 @@ export class ContactDet extends Component {
             Mr. Satyajit Mukherjee
             </p>
             <p>
-            Research Fellow
+            Project Fellow
             Department of Mathematics,
             Jadavpur University,
             Kolkata-700032,
@@ -61,7 +61,7 @@ export class ContactDet extends Component {
             Mr. Homagnic Bose
             </p>
             <p>
-            Research Fellow
+            Project Fellow
             Department of Mathematics,
             Jadavpur University,
             Kolkata-700032,

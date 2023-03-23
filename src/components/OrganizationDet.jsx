@@ -89,6 +89,14 @@ export class OrganizationDet extends Component {
                 <p className='text-primary mt-3'>Prof. (Dr.) Subenoy Chakraborty.</p>
                 <p className='text-info'>Dean, Faculty of Science, Jadavpur University</p>
             </div>
+            <div className="col-lg-3 p-3">
+                <h2 className='text-danger'>Organizing Secretary</h2>
+                <p className='text-primary'>Prof. (Dr.) Priti Kumar Roy</p>
+                <p className='text-info'>Department Of Mathematics, Jadavpur University</p>
+                <h2 className='text-danger'>Executive Secretary</h2>
+                <p className='text-primary'>Prof. (Dr.) Nandadulal Bairagi</p>
+                <p className='text-info'>Department Of Mathematics, Jadavpur University</p>
+            </div>
             <div className="col-lg-2 p-3">
                 <h2 className='text-danger'>Joint Organizing Secretary</h2>
                 <p className="text-primary">Prof.(Dr.) Kallol Paul</p>
@@ -103,14 +111,6 @@ export class OrganizationDet extends Component {
                 <h2 className='text-danger'>Treasurer</h2>
                 <p className='text-primary'>Prof (Dr.) Arindam Bhattacharya</p>
                 <p className='text-info'>Department of Mathematics, Jadavpur University</p>
-            </div>
-            <div className="col-lg-3 p-3">
-                <h2 className='text-danger'>Organizing Secretary</h2>
-                <p className='text-primary'>Prof. (Dr.) Priti Kumar Roy</p>
-                <p className='text-info'>Department Of Mathematics, Jadavpur University</p>
-                <h2 className='text-danger'>Executive Secretary</h2>
-                <p className='text-primary'>Prof. (Dr.) Nandadulal Bairagi</p>
-                <p className='text-info'>Department Of Mathematics, Jadavpur University</p>
             </div>
         </div>
         <div className="d-flex justify-content-around text-left flex-lg-row flex-column">

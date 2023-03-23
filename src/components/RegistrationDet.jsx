@@ -34,6 +34,9 @@ export class RegistrationDet extends Component {
                   </ul>
               </li>
             </ol>
+            <ul style={{color: 'white'}}>
+              <li>Registration fees are not required especially for plenary and invited speakers.</li>
+            </ul>
             {/* <p style={{color: 'white'}}>Faculty/ Academician (Without accomodation): Rs. 4,000/-(Indian)</p>
             <p style={{color: 'white'}}>Research Scholar: Rs. 3,000/-(Indian)</p>
             <p style={{color: 'white'}}>Accompanying Person: Rs. 3,000/-(Indian)</p>

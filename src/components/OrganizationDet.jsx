@@ -56,6 +56,18 @@ export class OrganizationDet extends Component {
                 "Prof. Alaka Das (J.U, Kolkata)",
                 "Dr. Sukhendu Kar (J.U, Kolkata)",
                 "Dr. Santosh Biswas (J.U, Kolkata)",
+                "Prof.Abhijit Lahiri (J.U, Kolkata)",
+                "Prof.Gopal Chandra Shit (J.U, Kolkata)",
+                "Prof. Ashish Kumar Sarkar (J.U, Kolkata)",
+                "Prof.Prabir Kumar Kundu (J.U, Kolkata)",
+                "Prof. Pratulananda Das (J.U, Kolkata)",
+                "Prof Sudeshna Banerjee (J.U, Kolkata)",
+                "Prof.Sujit Kumar Sardar (J.U, Kolkata)",
+                "Dr.Manasi Mandal (J.U, Kolkata)",
+                "Dr. Nilanjana Mahata (J.U, Kolkata)",
+                "Dr.Molla Basir Ahamed (J.U, Kolkata)",
+                "Dr.Riddhick Birbonshi (J.U, Kolkata)",
+                "Dr. Sanjib Kumar Pal (J.U, Kolkata)",
             ]
         }
     }

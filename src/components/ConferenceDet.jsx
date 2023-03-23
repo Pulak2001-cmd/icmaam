@@ -25,7 +25,7 @@ export class ConferenceDet extends Component {
           The program of the conference will consist of, apart from one Keynote Address and 4 – 6 common Plenary Lectures, two parallel sessions, one in pure branches of Mathematics giving special emphasis on Functional Analysis, Real Analysis, Topology, Topological Dynamical Systems etc. and the other in applied branches of Mathematics with more emphasis on Mathematical Modeling, Non-linear Dynamical Systems and Mathematical Biology. We are looking forward to welcoming you in Jadavpur University.
         </p>
         <p style={{fontSize: 18, textAlign: 'justify'}}>
-          In this connection we would like to proudly mention that Jadavpur University has long been acknowledged as a center of excellence in teaching and research and in its last survey The University has been ranked overall 12th among all Indian educational institutions and 1st among all state aided universities (NIRF) with special mention of The Department of Mathematics. The Department has just completed DRS Phase I (2012 – 2017) with thrust areas being Analysis, Nonlinear Dynamics and Optimization.
+          In this connection we would like to proudly mention that Jadavpur University has long been acknowledged as a center of excellence in teaching and research and in its last survey The University has been ranked overall 12th among all Indian educational institutions and 4th in university, 13th in research among all state aided universities (NIRF) with special mention of The Department of Mathematics.
         </p>     
       </div>
     )

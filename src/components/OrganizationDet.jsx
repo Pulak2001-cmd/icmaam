@@ -6,7 +6,7 @@ export class OrganizationDet extends Component {
         this.state = {
             row1: [
                 "Prof. Odo Diekmann (Utrecht University, Netherlands)",
-                "Prof. Gaston N&#39;Guerekata (M.S.U, USA)",
+                "Prof. Gaston N'Guerekata (M.S.U, USA)",
                 "Prof. David Greenhalgh (U.S.G, Scotland)",
                 "Prof. Stacey Smith? (U.O, Canada)",
                 "Prof. Gergely Röst (University of Szeged, Hungary)",
@@ -14,6 +14,7 @@ export class OrganizationDet extends Component {
                 "Prof. Miroslaw Lachowicz (W.U, Poland)",
                 "Prof. Jocirei Dias Ferreira (The Federal University of Mato Grosso – UFMT)",
                 "Prof. Shigui Ruan (U.M.G, Florida, USA)",
+                "Prof. Jacek Chmielinski (Pedagogical University Of Krakow, Poland)",
                 "Prof. Xianbing Cao (B.T.B.U, China)",
                 "Prof. Igor Schreiber (U.C.T, Czech Republic)",
                 "Prof. Xue-Zhi Li (Henan Normal University, China)",
@@ -27,7 +28,6 @@ export class OrganizationDet extends Component {
                 "Dr. Robert Hakel (Czech Academy of Sciences, Czech Republic)",
                 "Prof. Ali Moussaoui ( Abou Bakr Belkaid University of Tlemcen , Algeria)",
                 "Prof. Haider Ali Biswas (Science Engineering and Technology School, Bangladesh)",
-                "Prof. Jacek Chmielinski (Pedagogical University Of Krakow, Poland)",
             ],
             row2: [
                 "Prof. Gadadhar Misra (ISI, Bangalore)",

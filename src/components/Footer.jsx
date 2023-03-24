@@ -12,8 +12,8 @@ export class Footer extends Component {
         </div>
         <div className="col-lg-4 m-1">
             <ul class="list-unstyled d-flex flex-row justify-content-center text-center">
-                <li><SocialIcon url='https://www.facebook.com' bgColor='#fff' fgColor='gray' className='m-3'/></li>
-                <li><SocialIcon url='https://www.twitter.com' bgColor='#fff' fgColor='gray' className='m-3'/></li>
+                <li><SocialIcon url='#' bgColor='#fff' fgColor='gray' className='m-3'/></li>
+                <li><SocialIcon url='https://twitter.com/icmaam2018' bgColor='#fff' fgColor='gray' className='m-3'/></li>
             </ul>
         </div>
       </div>

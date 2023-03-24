@@ -11,7 +11,7 @@ export class HomeItems extends Component {
             </div>
             <ul>
               <li style={{textAlign: 'justify'}}>
-              We have a proposal for Springer Book Proceedings, Full length papers presented in  ICMMAM-2023 will undergo a peer review process and selected papers will subsequently be published in Springer Book Proceedings.
+              We have a proposal for probably Springer Book Proceedings, Full length papers presented in  ICMMAM-2023 will undergo a peer review process and selected papers will subsequently be published in Springer Book Proceedings.
               </li>
               <li style={{textAlign: 'justify'}}>
               Full length papers presented in  ICMMAM-2023 will undergo a peer review process and selected papers will subsequently be published in special issues of the following journals:

@@ -19,18 +19,16 @@ export class SpeakersDet extends Component {
           "Prof. Haider Ali Biswas (Science Engineering and Technology School, Bangladesh)",
         ],
         national: [
-            "Prof. K. H. Paranjape (I.I.S.E.R, Mohali)", 
-            "Prof. Gadadhar Misra (I.I.S.C, Bangalore)",
-            "Prof. V. Kannan (H.U, Hyderabad)",
-            "Prof. Gobindan Rangarajan (I.I.S.C, Bangalore)",
-            "Prof. Maithily Ramaswamy (T.I.F.R, Bangalore)",
-            "Prof. P. Sankaran (I.M.S.C, Chennai)",
-            "Prof. Satya Deo (H.R.I, Allahabad)",
-            "Prof. A. K. Pani (I.I.T, Mumbai)",
-            "Prof. G. Mukhopadhyay (I.S.I, Kolkata)",
-            "Prof. P. Bandyopadhyay (I.S.I, Kolkata)",
-            "Prof. S.M. Srivastava (I.S.I, Kolkata)",
-            "Prof. G. K. Medhi (N.E.I.G.R.I.H.M.S, Shillong)", 
+          "Prof. Gadadhar Misra (ISI, Bangalore)",
+          "Prof. Ranjan Kumar Mohanty (South Asian University)",
+          "Prof. A K Misra (BHU)",
+          "Prof. Jaydeb Sarkar (ISI, Bangalore)",
+          "Prof. Pradipta Bandyopadhyay (ISI, Kolkata)",
+          "Dr. Amit Kumar Ghosh, Emeritus Scientist, CSIR, BSIP, DST",
+          "Prof. Adrijit Goswami, IIT, KGP",
+          "Prof. M. Sundarajan (Mijoram University)",
+          "Prof. S B Singh (G B Pant University of Agri. &amp; Tech.)",
+          "Dr. Samrat Chatterjee, (THSTI)",
         ]
     }
   }
@@ -45,10 +43,10 @@ export class SpeakersDet extends Component {
         </div>
         <div className="d-flex text-left flex-column m-4 p-3">
             <h3 className='text-danger'>Confirmed Plenary and Invited Speakers (National)</h3>
-            {/* {this.state.national.map((i, index)=> {
+            {this.state.national.map((i, index)=> {
                 return <p className="m-0 text-light fw-bold" index={index}>{i}</p>
-            })} */}
-            <img src="/tba.png" height={330} width={330}/>
+            })}
+            {/* <img src="/tba.png" height={330} width={330}/> */}
         </div>
       </div>
     )

@@ -73,7 +73,7 @@ export class OrganizationDet extends Component {
         <div className="d-flex justify-content-around text-center flex-column flex-lg-row flex-md-row ">
             <div className="col-lg-2 p-3">
                 <h2 className="text-danger">Chief Patron</h2>
-                <p className="text-primary">Dr. Suranjan Das</p>
+                <p className="text-primary">Prof. (Dr.) Suranjan Das</p>
                 <p className="text-info">Vice Chancellor, Jadavpur University</p>
             </div>
             <div className="col-lg-3 p-3">

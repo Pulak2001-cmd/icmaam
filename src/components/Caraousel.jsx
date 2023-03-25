@@ -9,13 +9,9 @@ export class Caraousel extends Component {
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="5000">
-                <img src="https://static.wixstatic.com/media/485cee_64fa944ad35d4dc297f8b01a75b0f564~mv2_d_2048_1536_s_2.jpg/v1/fill/w_1223,h_589,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/485cee_64fa944ad35d4dc297f8b01a75b0f564~mv2_d_2048_1536_s_2.jpg" class="d-block w-100 h-50" alt="..." />
-                </div>
-                <div class="carousel-item" data-bs-interval="5000">
                 <img src="https://static.wixstatic.com/media/485cee_c448edd728e044888958dff4ff54614f~mv2.jpeg/v1/fill/w_948,h_457,al_c,lg_1,q_85,enc_auto/485cee_c448edd728e044888958dff4ff54614f~mv2.jpeg" class="d-block w-100 h-50" alt="..." />
                 </div>
                 <div class="carousel-item" data-bs-interval="5000">

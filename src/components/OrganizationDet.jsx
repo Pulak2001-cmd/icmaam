@@ -71,7 +71,7 @@ export class OrganizationDet extends Component {
     return (
       <div className="m-4">
         <div className="d-flex justify-content-around text-center flex-column flex-lg-row flex-md-row ">
-            <div className="col-lg-2 p-3">
+            <div className="col-lg-2 p-2">
                 <h2 className="text-danger">Chief Patron</h2>
                 <p className="text-primary">Prof. (Dr.) Suranjan Das</p>
                 <p className="text-info">Vice Chancellor, Jadavpur University</p>
@@ -84,6 +84,14 @@ export class OrganizationDet extends Component {
                 <p className="text-info">Pro-Vice Chancellor, Jadavpur University</p>
                 <p className='text-primary mt-3'>Prof. (Dr.) Subenoy Chakraborty.</p>
                 <p className='text-info'>Dean, Faculty of Science, Jadavpur University</p>
+            </div>
+            <div className="col-lg-2 p-1">
+                <h2 className='text-danger'>Chairman</h2>
+                <p className='text-primary'>Prof. (Dr.) Saghnik Sinha</p>
+                <p className='text-info'>Head, Department of Mathematics, Jadavpur University</p>
+                <h2 className='text-danger'>Treasurer</h2>
+                <p className='text-primary'>Prof (Dr.) Arindam Bhattacharya</p>
+                <p className='text-info'>Department of Mathematics, Jadavpur University</p>
             </div>
             <div className="col-lg-3 p-3">
                 <h2 className='text-danger'>Organizing Secretary</h2>
@@ -100,33 +108,31 @@ export class OrganizationDet extends Component {
                 <p className="text-primary">Prof. (Dr.) Dipak Kumar kesh</p>
                 <p className="text-info">Department of Mathematics, Jadavpur university</p>
             </div>
-            <div className="col-lg-2 p-3">
-                <h2 className='text-danger'>Chairman</h2>
-                <p className='text-primary'>Prof. (Dr.) Saghnik Sinha</p>
-                <p className='text-info'>Head, Department of Mathematics, Jadavpur University</p>
-                <h2 className='text-danger'>Treasurer</h2>
-                <p className='text-primary'>Prof (Dr.) Arindam Bhattacharya</p>
-                <p className='text-info'>Department of Mathematics, Jadavpur University</p>
-            </div>
         </div>
         <div className="d-flex justify-content-around text-left flex-lg-row flex-column">
             <div className="col-lg-4 p-3 mx-auto">
                 <h3>Scientific Advisory Committee (International)</h3>
+                <ul>
                 {this.state.row1.map((i, index)=> {
-                    return <p style={{margin: 0}} index={index}>{i}</p>
+                    return <li style={{margin: 0}} index={index}>{i}</li>
                 })}
+                </ul>
             </div>
             <div className="col-lg-4 p-3 mx-auto">
                 <h3>Scientific Advisory Committee (National)</h3>
+                <ul>
                 {this.state.row2.map((i, index)=> {
-                    return <p style={{margin: 0}} index={index}>{i}</p>
+                    return <li style={{margin: 0}} index={index}>{i}</li>
                 })}
+                </ul>
             </div>
             <div className="col-lg-4 p-3 mx-auto">
                 <h3>Local Organizing Committee</h3>
+                <ul>
                 {this.state.row3.map((i, index)=> {
-                    return <p style={{margin: 0}} index={index}>{i}</p>
+                    return <li style={{margin: 0}} index={index}>{i}</li>
                 })}
+                </ul>
             </div>
         </div>
       </div>

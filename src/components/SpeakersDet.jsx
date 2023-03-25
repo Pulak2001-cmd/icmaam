@@ -5,7 +5,7 @@ export class SpeakersDet extends Component {
     super(props);
     this.state = {
         international: [
-          "Prof. Gaston N&#39;Guerekata (M.S.U, USA)",
+          "Prof. Gaston N'Guerekata (M.S.U, USA)",
           "Prof. David Greenhalgh (U.S.G, Scotland, UK)",
           "Prof. Stacey Smith? (U.O, Canada)",
           "Prof. Gergely Röst (University of Szeged, Hungary)",

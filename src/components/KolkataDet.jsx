@@ -12,7 +12,7 @@ export class KolkataDet extends Component {
                 <Map Lat={22.60129783798892} Lng={88.37946130174645} Name="Sealdah station, BB Ganguly Street, Raja Bazar, Kolkata, West Bengal 700014, India" />
             </div>
             <div className="col-lg-3 m-2">
-                <Map Lat={22.499313} Lng={88.371849} Name="Jadavpur, Kolkata, West Bengal 700032, India" />
+                <Map Lat={22.50082029467077} Lng={88.37143577635288} Name="Jadavpur, Kolkata, West Bengal 700032, India" />
             </div>
         </div>
       </div>

@@ -16,7 +16,7 @@ export class SpeakersDet extends Component {
           "Prof. Zbigniew Bartosiewicz (Bialystok University of Technology, Poland)",
           "Prof. Ujjal Kumar Deb, CUET, Bangladesh.",
           "Dr. Robert Hakel (Czech Academy of Sciences, Czech Republic)",
-          "Prof. Haider Ali Biswas (Science Engineering and Technology School, Bangladesh)",
+          "Prof. Haider Ali Biswas (Khulna University, Bangladesh)",
         ],
         national: [
           "Prof. Gadadhar Misra (ISI, Bangalore)",
@@ -38,13 +38,13 @@ export class SpeakersDet extends Component {
         <div className="d-flex text-left flex-column m-4 p-3">
             <h3 className="text-danger">Confirmed Plenary and Invited Speakers (International)</h3>
             {this.state.international.map((i, index)=> {
-                return <p className="m-0 text-light fw-bold" index={index}>{i}</p>
+                return <p className="m-0 text-dark fw-bold" index={index}>{i}</p>
             })}
         </div>
         <div className="d-flex text-left flex-column m-4 p-3">
             <h3 className='text-danger'>Confirmed Plenary and Invited Speakers (National)</h3>
             {this.state.national.map((i, index)=> {
-                return <p className="m-0 text-light fw-bold" index={index}>{i}</p>
+                return <p className="m-0 text-dark fw-bold" index={index}>{i}</p>
             })}
             {/* <img src="/tba.png" height={330} width={330}/> */}
         </div>

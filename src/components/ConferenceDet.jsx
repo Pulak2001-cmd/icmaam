@@ -1,26 +1,43 @@
 import React, { Component } from 'react'
 
 export class ConferenceDet extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      subs: [
+        "Functional Analysis",
+        "Topology",
+        "Dynamic Systems (non-linear, topological)",
+        "Mathematical Modeling",
+        "Optimization",
+        "Mathematical Biology",
+        "Chaos Fractals and bifurcation",
+        "Complex analysis",
+        "Differential geometry",
+        "Flow dynamics",
+        "Function analysis and its application",
+        "Geometry",
+        "Operation research"
+      ],
+    }
+  }
   render() {
     return (
       <div className="m-4">
        <p style={{fontSize: 18, textAlign: 'justify'}}> International Conference on Mathematical Analysis and Applications in Modeling (ICMAAM 2023) is aimed to bring researchers and professionals to discuss recent developments in Pure and Applied mathematics and their applications in Mathematical Modeling in order to create a professional knowledge exchange platform between mathematicians. Though all areas of Mathematics will be included in the conference, the following are the Thrust Areas of the conference:
        </p>
-       <ol className="text-left d-flex flex-column">
-        <li style={{fontSize: 18, color: 'red', fontWeight: 'bold'}}>Analysis</li>
-        <li style={{fontSize: 18, color: 'red', fontWeight: 'bold'}}>Topology</li>
-        <li style={{fontSize: 18, color: 'red', fontWeight: 'bold'}}>Dynamical Systems (non-linear, topological)</li>
-        <li style={{fontSize: 18, color: 'red', fontWeight: 'bold'}}>Mathematical Modeling</li>
-        <li style={{fontSize: 18, color: 'red', fontWeight: 'bold'}}>Optimization</li>
-        <li style={{fontSize: 18, color: 'red', fontWeight: 'bold'}}>Mathematical Biology</li>
-        <li style={{fontSize: 18, color: 'red', fontWeight: 'bold'}}>Chaos Fractals and bifurcation</li>
-        <li style={{fontSize: 18, color: 'red', fontWeight: 'bold'}}>Complex analysis</li>
-        <li style={{fontSize: 18, color: 'red', fontWeight: 'bold'}}>Differential geometry</li>
-        <li style={{fontSize: 18, color: 'red', fontWeight: 'bold'}}>Flow dynamics</li>
-        <li style={{fontSize: 18, color: 'red', fontWeight: 'bold'}}>Function analysis and its application</li>
-        <li style={{fontSize: 18, color: 'red', fontWeight: 'bold'}}>Geometry</li>
-        <li style={{fontSize: 18, color: 'red', fontWeight: 'bold'}}>Operation research</li>
-      </ol>
+       <div className="d-flex flex-column flex-md-row flex-lg-row justify-content-around">
+       <ul className="text-left d-flex flex-column">
+        {this.state.subs.slice(0, this.state.subs.length/2).map((i, index) =>(
+          <li key={index} className="fw-bold text-danger">{i}</li>
+        ))}
+      </ul>
+      <ul className="text-left">
+        {this.state.subs.slice(this.state.subs.length/2, this.state.subs.length).map((i, index) =>(
+          <li key={index} className="fw-bold text-danger">{i}</li>
+        ))}
+      </ul>
+      </div>
         <p style={{fontSize: 18, textAlign: 'justify'}}>       
           The program of the conference will consist of, apart from one Keynote Address and 4 – 6 common Plenary Lectures, two parallel sessions, one in pure branches of Mathematics giving special emphasis on Functional Analysis, Real Analysis, Topology, Topological Dynamical Systems etc. and the other in applied branches of Mathematics with more emphasis on Mathematical Modeling, Non-linear Dynamical Systems and Mathematical Biology. We are looking forward to welcoming you in Jadavpur University.
         </p>

@@ -9,6 +9,7 @@ export class SpeakersDet extends Component {
           "Prof. David Greenhalgh (U.S.G, Scotland, UK)",
           "Prof. Stacey Smith? (U.O, Canada)",
           "Prof. Gergely Röst (University of Szeged, Hungary)",
+          "Prof. Jacek Chmieliński (Pedagogical University Of Krakow, Poland)",
           "Prof. Miroslaw Lachowicz (W.U, Poland)",
           "Prof. Igor Schreiber (U.C.T, Czech Republic)",
           "Prof. Shigui Ruan (U.M.G, Florida, USA)",

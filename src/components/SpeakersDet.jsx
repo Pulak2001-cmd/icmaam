@@ -17,6 +17,7 @@ export class SpeakersDet extends Component {
           "Prof. Ujjal Kumar Deb, CUET, Bangladesh.",
           "Dr. Robert Hakel (Czech Academy of Sciences, Czech Republic)",
           "Prof. Haider Ali Biswas (Khulna University, Bangladesh)",
+          "Prof. YANHUI ZHANG (BTBU, China)",
         ],
         national: [
           "Prof. Gadadhar Misra (ISI, Bangalore)",
@@ -29,6 +30,7 @@ export class SpeakersDet extends Component {
           "Prof. M. Sundarajan (Mijoram University)",
           "Prof. S B Singh (G B Pant University of Agri. &amp; Tech.)",
           "Dr. Samrat Chatterjee, (THSTI)",
+          "Prof. Apoorva Khare (IISC, Bengalore)"
         ]
     }
   }

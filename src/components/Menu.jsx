@@ -19,7 +19,6 @@ export class Menu extends Component {
                   About
                 </a>
                 <ul class="dropdown-menu">
-                  <li><Link class="dropdown-item" to="/conference">Conference</Link></li>
                   <li><Link class="dropdown-item" to="/department">Department</Link></li>
                   <li><Link class="dropdown-item" to="/university">University</Link></li>
                 </ul>
@@ -47,6 +46,12 @@ export class Menu extends Component {
                   <li><Link class="dropdown-item" to="/sealdah">From Sealdah Railway Station</Link></li>
                   <li><Link class="dropdown-item" to="/kolkata">From Kolkata Railway Station</Link></li>
                 </ul>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/publications">Publications</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/fundings">Fundings</Link>
               </li>
               <li class="nav-item">
                 <Link target="_blank" class="nav-link" to="https://icmaam2018.wixsite.com/icmaam2018">Previous Conferences</Link>

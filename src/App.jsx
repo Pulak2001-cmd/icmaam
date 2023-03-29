@@ -15,6 +15,7 @@ import Kolkata from './components/Kolkata';
 import Footer from './components/Footer';
 import TopBar from './components/TopBar';
 import Menu from './components/Menu';
+import Fundings from "./components/Fundings";
 
 function App() {
 
@@ -24,7 +25,7 @@ function App() {
     <Menu />
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/conference" element={<ConferenceAbout />} />
+      <Route path="/publications" element={<ConferenceAbout />} />
       <Route path="/department" element={<DepartmentAbout />} />
       <Route path="/university" element={<UniversityAbout />} />
       <Route path="/registration" element={<Registration />} />
@@ -36,6 +37,7 @@ function App() {
       <Route path="/howrah" element={<Howrah />} />
       <Route path="/sealdah" element={<Sealdah />} />
       <Route path="/kolkata" element={<Kolkata />} />
+      <Route path="/fundings" element={<Fundings />} />
     </Routes>
     <Footer />
     </>

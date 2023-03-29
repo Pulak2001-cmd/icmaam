@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Caraousel from './Caraousel'
+import ConferenceDet from './ConferenceDet'
 import HomeItems from './HomeItems'
 
 export class Home extends Component {
@@ -7,7 +8,7 @@ export class Home extends Component {
     return (
       <div>
         <Caraousel />
-        <HomeItems />
+        <ConferenceDet />
       </div>
     )
   }

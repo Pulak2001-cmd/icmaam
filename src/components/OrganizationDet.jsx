@@ -14,7 +14,7 @@ export class OrganizationDet extends Component {
                 "Prof. Miroslaw Lachowicz (W.U, Poland)",
                 "Prof. Jocirei Dias Ferreira (The Federal University of Mato Grosso – UFMT)",
                 "Prof. Shigui Ruan (U.M.G, Florida, USA)",
-                "Prof. Jacek Chmielinski (Pedagogical University Of Krakow, Poland)",
+                "Prof. Jacek Chmieliński (Pedagogical University Of Krakow, Poland)",
                 "Prof. Xianbing Cao (B.T.B.U, China)",
                 "Prof. Igor Schreiber (U.C.T, Czech Republic)",
                 "Prof. Xue-Zhi Li (Henan Normal University, China)",
@@ -41,6 +41,7 @@ export class OrganizationDet extends Component {
                 "Dr. Amit Kumar Ghosh (Emeritus Scientist, CSIR, BSIP, DST)",
                 "Prof. Adrijit Goswami (IIT, KGP)",
                 "Prof. M. Sundarajan (Mijoram University)",
+                "Prof. Apoorva Khare (IISC, Bengalore)"
             ],
             row3: [
                 "Prof. Subhas Mandal (J.U, Kolkata)",
@@ -70,49 +71,49 @@ export class OrganizationDet extends Component {
   render() {
     return (
       <div className="m-4">
-        <div className="d-flex justify-content-around text-center flex-column flex-lg-row flex-md-row ">
+        <div className="d-flex justify-content-around text-left flex-column flex-lg-row flex-md-row ">
             <div className="col-lg-2 p-2">
-                <h2 className="text-danger">Chief Patron</h2>
-                <p className="text-primary">Prof. (Dr.) Suranjan Das</p>
-                <p className="text-info">Vice Chancellor, Jadavpur University</p>
+                <h4 className="text-primary">Chief Patron</h4>
+                <p className="text-danger" style={{fontSize: 20, margin: 0}}>Prof. (Dr.) Suranjan Das</p>
+                <p className="" style={{color: '#f54254',}} >Vice Chancellor, Jadavpur University</p>
             </div>
             <div className="col-lg-3 p-3">
-                <h2 className="text-danger">Patron</h2>
-                <p className="text-primary">Prof. (Dr.) Amitava Dutta</p>
-                <p className="text-info">Pro-Vice Chancellor, Jadavpur University</p>
-                <p className="text-primary">Prof. (Dr.) Chiranjib Bhattacharya</p>
-                <p className="text-info">Pro-Vice Chancellor, Jadavpur University</p>
-                <p className='text-primary mt-3'>Prof. (Dr.) Subenoy Chakraborty.</p>
-                <p className='text-info'>Dean, Faculty of Science, Jadavpur University</p>
+                <h4 className="text-primary">Patron</h4>
+                <p className="text-danger" style={{fontSize: 20, margin: 0}}>Prof. (Dr.) Amitava Dutta</p>
+                <p className="" style={{color: '#f54254',}}>Pro-Vice Chancellor, Jadavpur University</p>
+                <p className="text-danger" style={{fontSize: 20, margin: 0}}>Prof. (Dr.) Chiranjib Bhattacharya</p>
+                <p className="" style={{color: '#f54254'}}>Pro-Vice Chancellor, Jadavpur University</p>
+                <p className='text-danger' style={{fontSize: 20, margin: 0}}>Prof. (Dr.) Subenoy Chakraborty.</p>
+                <p className='' style={{color: '#f54254'}}>Dean, Faculty of Science, Jadavpur University</p>
             </div>
             <div className="col-lg-2 p-1">
-                <h2 className='text-danger'>Chairman</h2>
-                <p className='text-primary'>Prof. (Dr.) Saghnik Sinha</p>
-                <p className='text-info'>Head, Department of Mathematics, Jadavpur University</p>
-                <h2 className='text-danger'>Treasurer</h2>
-                <p className='text-primary'>Prof (Dr.) Arindam Bhattacharya</p>
-                <p className='text-info'>Department of Mathematics, Jadavpur University</p>
+                <h4 className='text-primary'>Chairman</h4>
+                <p className="text-danger" style={{fontSize: 20, margin: 0}}>Prof. (Dr.) Saghnik Sinha</p>
+                <p className="" style={{color: '#f54254',}}>Head, Department of Mathematics, Jadavpur University</p>
+                <h4 className='text-primary'>Treasurer</h4>
+                <p className="text-danger" style={{fontSize: 20, margin: 0}}>Prof (Dr.) Arindam Bhattacharya</p>
+                <p className="" style={{color: '#f54254',}}>Department of Mathematics, Jadavpur University</p>
             </div>
             <div className="col-lg-3 p-3">
-                <h2 className='text-danger'>Organizing Secretary</h2>
-                <p className='text-primary'>Prof. (Dr.) Priti Kumar Roy</p>
-                <p className='text-info'>Department Of Mathematics, Jadavpur University</p>
-                <h2 className='text-danger'>Executive Secretary</h2>
-                <p className='text-primary'>Prof. (Dr.) Nandadulal Bairagi</p>
-                <p className='text-info'>Department Of Mathematics, Jadavpur University</p>
+                <h4 className='text-primary'>Organizing Secretary</h4>
+                <p className='text-danger' style={{fontSize: 20, margin: 0}}>Prof. (Dr.) Priti Kumar Roy</p>
+                <p className="" style={{color: '#f54254',}}>Department Of Mathematics, Jadavpur University</p>
+                <h4 className='text-primary'>Executive Secretary</h4>
+                <p className="text-danger" style={{fontSize: 20, margin: 0}}>Prof. (Dr.) Nandadulal Bairagi</p>
+                <p className="" style={{color: '#f54254',}}>Department Of Mathematics, Jadavpur University</p>
             </div>
             <div className="col-lg-2 p-3">
-                <h2 className='text-danger'>Joint Organizing Secretary</h2>
-                <p className="text-primary">Prof.(Dr.) Kallol Paul</p>
-                <p className="text-info">Department of Mathematics, Jadavpur university</p>
-                <p className="text-primary">Prof. (Dr.) Dipak Kumar kesh</p>
-                <p className="text-info">Department of Mathematics, Jadavpur university</p>
+                <h4 className='text-primary'>Joint Organizing Secretary</h4>
+                <p className='text-danger' style={{fontSize: 20, margin: 0}}>Prof.(Dr.) Kallol Paul</p>
+                <p className="" style={{color: '#f54254',}}>Department of Mathematics, Jadavpur university</p>
+                <p className='text-danger' style={{fontSize: 20, margin: 0}}>Prof. (Dr.) Dipak Kumar kesh</p>
+                <p className="" style={{color: '#f54254',}}>Department of Mathematics, Jadavpur university</p>
             </div>
         </div>
         <div className="d-flex justify-content-around text-left flex-lg-row flex-column">
             <div className="col-lg-4 p-3 mx-auto">
                 <h3>Scientific Advisory Committee (International)</h3>
-                <ul>
+                <ul style={{whiteSpace: 'pre-wrap'}}>
                 {this.state.row1.map((i, index)=> {
                     return <li style={{margin: 0}} index={index}>{i}</li>
                 })}

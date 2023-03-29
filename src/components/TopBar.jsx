@@ -13,7 +13,7 @@ export class TopBar extends Component {
             <p style={{color: 'red', fontSize: 25, fontWeight: 'bold'}}>2nd International Conference on Mathematical Analysis and Application in Modeling</p>
             <p style={{color: 'red', fontSize: 25, fontWeight: 'bold'}}>(ICMAAM 2023)</p>
             <p style={{fontSize: 18}}>Organised By
-            Department of Mathematics, Jadavpur University</p>
+            Department of Mathematics, Jadavpur University & Center for Mathematical Biology and Ecology</p>
         </div>
       </div>
     )

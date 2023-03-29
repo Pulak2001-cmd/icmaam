@@ -6,7 +6,7 @@ export class Contact extends Component {
   render() {
     return (
       <div>
-        <Caraousel />
+        {/* <Caraousel /> */}
         <ContactDet />
       </div>
     )

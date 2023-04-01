@@ -18,28 +18,38 @@ export class SpeakersDet1 extends Component {
   }
   render() {
     return (
-      <div className='mx-5 d-flex flex-column mt-5'>
-        <div className='px-5'>
+      <div className='m-4 d-flex flex-column flex-lg-row flex-md-row text-center'>
+        <div className='px-lg-5 col-lg-6'>
             <h3>Confirmed Plenary and Invited Speakers (International)</h3>
+            {this.state.international.length === 0 &&
+              <div class="spinner-grow mt-5" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </div>
+            }
             <div class="accordion accordion-flush" id="accordionFlushExample">
                 {this.state.international.map((i, index)=> (
                 <div class="accordion-item">
                     <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target={`#flush-collapse${index}`} aria-expanded="false" aria-controls={`flush-collapse${index}`}>
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target={`#flush-collapseint${index}`} aria-expanded="false" aria-controls={`flush-collapseint${index}`}>
                         {i.name}
                     </button>
                     </h2>
-                    <div id={`flush-collapse${index}`} class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">
-                        {i.details}
-                        {i.image !== "" && <img src={i.image} alt="image" style={{height: 100, width: 100}} />}    
+                    <div id={`flush-collapseint${index}`} class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body d-flex flex-column flex-lg-row align-items-center justify-content-center" style={{textAlign: 'justify'}}>
+                        <p className="p-2">{i.details}</p>
+                        {i.image !== "" && <img className="p-2" src={i.image} alt="image" style={{height: 150, width: 150, borderRadius: '50%'}} />}    
                     </div>
                     </div>
                 </div>))}
             </div>
         </div>
-        <div className="p-5">
+        <div className="px-lg-5 col-lg-6 border-lg-start border-md-start border-danger border-5">
             <h3>Confirmed Plenary and Invited Speakers (National)</h3>
+            {this.state.national.length === 0 &&
+                <div class="spinner-grow mt-5" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+            }
             <div class="accordion accordion-flush" id="accordionFlushExample">
                 {this.state.national.map((i, index)=> (
                 <div class="accordion-item">

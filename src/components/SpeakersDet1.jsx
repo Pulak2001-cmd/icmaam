@@ -30,7 +30,10 @@ export class SpeakersDet1 extends Component {
                     </button>
                     </h2>
                     <div id={`flush-collapse${index}`} class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">{i.details}</div>
+                    <div class="accordion-body">
+                        {i.details}
+                        {i.image !== "" && <img src={i.image} alt="image" style={{height: 100, width: 100}} />}    
+                    </div>
                     </div>
                 </div>))}
             </div>

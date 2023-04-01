@@ -10,7 +10,7 @@ export class Caraousel extends Component {
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="5000">
-                <img src="/fundings.jpg" class="d-block w-100 h-30" alt="..." />
+                <img src="/fundings.jpg" class="d-block w-100 h-30" alt="..." style={{height: 400, width: 300}} />
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

@@ -115,7 +115,7 @@ export class OrganizationDet extends Component {
                 <h3>Scientific Advisory Committee (International)</h3>
                 <ul style={{whiteSpace: 'pre-wrap'}}>
                 {this.state.row1.map((i, index)=> {
-                    return <li style={{margin: 0}} index={index}>{i}</li>
+                    return <li style={{margin: 0, textIndent: '-10px', paddingLeft: '10px'}} index={index}>{i}</li>
                 })}
                 </ul>
             </div>
@@ -123,7 +123,7 @@ export class OrganizationDet extends Component {
                 <h3>Scientific Advisory Committee (National)</h3>
                 <ul>
                 {this.state.row2.map((i, index)=> {
-                    return <li style={{margin: 0}} index={index}>{i}</li>
+                    return <li style={{margin: 0, textIndent: '-10px', paddingLeft: '10px'}} index={index}>{i}</li>
                 })}
                 </ul>
             </div>
@@ -131,7 +131,7 @@ export class OrganizationDet extends Component {
                 <h3>Local Organizing Committee</h3>
                 <ul>
                 {this.state.row3.map((i, index)=> {
-                    return <li style={{margin: 0}} index={index}>{i}</li>
+                    return <li style={{margin: 0, textIndent: '-10px', paddingLeft: '10px'}} index={index}>{i}</li>
                 })}
                 </ul>
             </div>

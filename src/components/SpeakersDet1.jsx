@@ -19,7 +19,7 @@ export class SpeakersDet1 extends Component {
   render() {
     return (
       <div className='m-4 d-flex flex-column flex-lg-row flex-md-row text-center'>
-        <div className='px-lg-5 col-lg-6'>
+        <div className='px-lg-5 col-lg-6 mt-3'>
             <h3>Confirmed Plenary and Invited Speakers (International)</h3>
             {this.state.international.length === 0 &&
               <div class="spinner-grow mt-5" role="status">
@@ -43,7 +43,7 @@ export class SpeakersDet1 extends Component {
                 </div>))}
             </div>
         </div>
-        <div className="px-lg-5 col-lg-6 border-lg-start border-md-start border-danger border-5">
+        <div className="px-lg-5 col-lg-6 mt-3 border-lg-start border-md-start border-danger border-5">
             <h3>Confirmed Plenary and Invited Speakers (National)</h3>
             {this.state.national.length === 0 &&
                 <div class="spinner-grow mt-5" role="status">

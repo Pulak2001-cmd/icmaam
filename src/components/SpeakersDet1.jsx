@@ -34,12 +34,13 @@ export class SpeakersDet1 extends Component {
                         {i.name}
                     </button>
                     </h2>
+                    {i.details !== "" &&
                     <div id={`flush-collapseint${index}`} class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body d-flex flex-column flex-lg-row align-items-center justify-content-center" style={{textAlign: 'justify'}}>
                         <p className="p-2">{i.details}</p>
                         {i.image !== "" && <img className="p-2" src={i.image} alt="image" style={{height: 150, width: 150, borderRadius: '50%'}} />}    
                     </div>
-                    </div>
+                    </div>}
                 </div>))}
             </div>
         </div>
@@ -58,9 +59,13 @@ export class SpeakersDet1 extends Component {
                         {i.name}
                     </button>
                     </h2>
-                    <div id={`flush-collapse${index}`} class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">{i.details}</div>
+                    {i.details !== "" &&
+                    <div id={`flush-collapseint${index}`} class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body d-flex flex-column flex-lg-row align-items-center justify-content-center" style={{textAlign: 'justify'}}>
+                        <p className="p-2">{i.details}</p>
+                        {i.image !== "" && <img className="p-2" src={i.image} alt="image" style={{height: 150, width: 150, borderRadius: '50%'}} />}    
                     </div>
+                    </div>}
                 </div>))}
             </div>
         </div>

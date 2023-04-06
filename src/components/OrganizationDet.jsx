@@ -18,7 +18,7 @@ export class OrganizationDet extends Component {
                 "Prof. Xianbing Cao (B.T.B.U, China)",
                 "Prof. Igor Schreiber (U.C.T, Czech Republic)",
                 "Prof. Xue-Zhi Li (Henan Normal University, China)",
-                "Prof. Leo Creedon (ATU, Ireland)",
+                "Dr. Leo Creedon (ATU, Ireland)",
                 "Dr. Attila Dénes (University of Szeged, Hungary)",
                 "Prof. Evgenii Khailov (Lomonosov Moscow State University Russia)",
                 "Prof. Ellina Grigorieva (Texas Women University, United States of America)",

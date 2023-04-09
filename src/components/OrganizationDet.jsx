@@ -5,15 +5,9 @@ export class OrganizationDet extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            row1: [
-
-            ],
-            row2: [
-              
-            ],
-            row3: [
-                
-            ]
+            row1: [],
+            row2: [],
+            row3: []
         }
     }
     async componentDidMount(){

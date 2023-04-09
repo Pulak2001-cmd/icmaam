@@ -61,24 +61,40 @@ export class OrganizationDet extends Component {
             </div>
         </div>
         <div className="d-flex justify-content-around text-left flex-lg-row flex-column">
-            <div className="col-lg-4 p-3 mx-auto">
+            <div className={`col-lg-4 p-3 mx-auto ${this.state.row1.length === 0 && 'text-center'}`}>
                 <h3>Scientific Advisory Committee (International)</h3>
+                {this.state.row1.length === 0 &&
+                    <div class="spinner-grow mt-5" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                }
                 <ul style={{whiteSpace: 'pre-wrap'}}>
                 {this.state.row1.map((i, index)=> {
                     return <li style={{margin: 0, textIndent: '-10px', paddingLeft: '10px'}} index={index}>{i}</li>
                 })}
                 </ul>
             </div>
-            <div className="col-lg-4 p-3 mx-auto">
+            <div className={`col-lg-4 p-3 mx-auto ${this.state.row2.length === 0 && 'text-center'}`}>
                 <h3>Scientific Advisory Committee (National)</h3>
+                {this.state.row2.length === 0 &&
+                    <div class="spinner-grow mt-5" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                }
                 <ul>
+                
                 {this.state.row2.map((i, index)=> {
                     return <li style={{margin: 0, textIndent: '-10px', paddingLeft: '10px'}} index={index}>{i}</li>
                 })}
                 </ul>
             </div>
-            <div className="col-lg-4 p-3 mx-auto">
+            <div className={`col-lg-4 p-3 mx-auto ${this.state.row3.length === 0 && 'text-center'}`}>
                 <h3>Local Organizing Committee</h3>
+                {this.state.row3.length === 0 &&
+                    <div class="spinner-grow mt-5" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                }
                 <ul>
                 {this.state.row3.map((i, index)=> {
                     return <li style={{margin: 0, textIndent: '-10px', paddingLeft: '10px'}} index={index}>{i}</li>

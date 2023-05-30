@@ -54,7 +54,7 @@ export class OrganizationDet extends Component {
             </div>
             <div className="col-lg-2 p-3">
                 <h4 className='text-primary'>Joint Organizing Secretary</h4>
-                <p className='text-danger' style={{fontSize: 20, margin: 0}}>Prof.(Dr.) Kallol Paul</p>
+                <p className='text-danger' style={{fontSize: 20, margin: 0}}>Prof. (Dr.) Kallol Paul</p>
                 <p className="" style={{color: '#f54254',}}>Department of Mathematics, Jadavpur university</p>
                 <p className='text-danger' style={{fontSize: 20, margin: 0}}>Prof. (Dr.) Dipak Kumar kesh</p>
                 <p className="" style={{color: '#f54254',}}>Department of Mathematics, Jadavpur university</p>

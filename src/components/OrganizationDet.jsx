@@ -62,7 +62,7 @@ export class OrganizationDet extends Component {
         </div>
         <div className="d-flex justify-content-around text-left flex-lg-row flex-column">
             <div className={`col-lg-4 p-3 mx-auto ${this.state.row1.length === 0 && 'text-center'}`}>
-                <h3>Scientific Advisory Committee (International)</h3>
+                <h3>International Scientific Advisory Committee</h3>
                 {this.state.row1.length === 0 &&
                     <div class="spinner-grow mt-5" role="status">
                         <span class="visually-hidden">Loading...</span>
@@ -75,7 +75,7 @@ export class OrganizationDet extends Component {
                 </ul>
             </div>
             <div className={`col-lg-4 p-3 mx-auto ${this.state.row2.length === 0 && 'text-center'}`}>
-                <h3>Scientific Advisory Committee (National)</h3>
+                <h3>National Scientific Advisory Committee</h3>
                 {this.state.row2.length === 0 &&
                     <div class="spinner-grow mt-5" role="status">
                         <span class="visually-hidden">Loading...</span>

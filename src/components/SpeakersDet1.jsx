@@ -16,6 +16,12 @@ export class SpeakersDet1 extends Component {
     const response2 = await axios.get(url+"national");
     this.setState({national: response2.data.data});
   }
+  convertImage = (url) => {
+    url = url.replace("https://drive.google.com/file/d/", "");
+    url = url.replace("/view?usp=sharing", "")
+    const new_url = "https://drive.google.com/uc?id="+url;
+    return new_url;
+  }
   render() {
     return (
       <div className='m-4 d-flex flex-column flex-lg-row flex-md-row text-center'>
@@ -38,7 +44,7 @@ export class SpeakersDet1 extends Component {
                     <div id={`flush-collapseint${index}`} class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body d-flex flex-column flex-lg-row align-items-center justify-content-center" style={{textAlign: 'justify'}}>
                         <p className="p-2">{i.details}</p>
-                        {i.image !== "" && <img className="p-2" src={i.image} alt="image" style={{height: 150, width: 150, borderRadius: '50%'}} />}    
+                        {i.image !== "" && <img className="p-2" src={this.convertImage(i.image)} alt="image" style={{height: 150, width: 150, borderRadius: '50%'}} />}    
                     </div>
                     </div>}
                 </div>))}
@@ -53,17 +59,17 @@ export class SpeakersDet1 extends Component {
             }
             <div class="accordion accordion-flush" id="accordionFlushExample">
                 {this.state.national.map((i, index)=> (
-                <div class="accordion-item">
+                <div class="accordion-item" key={index}>
                     <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target={`#flush-collapse${index}`} aria-expanded="false" aria-controls={`flush-collapse${index}`}>
                         {i.name}
                     </button>
                     </h2>
                     {i.details !== "" &&
-                    <div id={`flush-collapseint${index}`} class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div id={`flush-collapse${index}`} class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body d-flex flex-column flex-lg-row align-items-center justify-content-center" style={{textAlign: 'justify'}}>
                         <p className="p-2">{i.details}</p>
-                        {i.image !== "" && <img className="p-2" src={i.image} alt="image" style={{height: 150, width: 150, borderRadius: '50%'}} />}    
+                        {i.image !== "" && <img className="p-2" src={this.convertImage(i.image)} alt="image" style={{height: 150, width: 150, borderRadius: '50%'}} />}    
                     </div>
                     </div>}
                 </div>))}

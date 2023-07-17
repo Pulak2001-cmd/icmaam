@@ -55,7 +55,7 @@ export class RegistrationDet extends Component {
                   <p>A/C No- 35779562283
                     <br/>IFSC- SBIN0000093
                     <br/>SBI Jadavpur University Branch</p>
-                <p>Step 3: Fill up the form before 31st august 2023 and upload the screenshot in the form.</p>
+                <p>Step 3: Fill up the form before 15th septembar 2023 and upload the screenshot in the form.</p>
             </div>
             <Link target="_blank" to="https://docs.google.com/forms/d/e/1FAIpQLSfQw8wHPuiUZpQWRb_yMwYyuuuh7KIi4p2df-_sy7BQk467SQ/viewform?usp=pp_url "><button className="btn btn-success m-2">Go To Form</button></Link>
         </div>

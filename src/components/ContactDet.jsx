@@ -13,6 +13,12 @@ export class ContactDet extends Component {
           <p style={{margin: 0, fontWeight: 'bold'}}>Prof. Kallol Paul </p>
           <p style={{margin: 0}}>  Email ID: kalloldada@gmail.com, <br/>  kallol.paul@jadavpuruniversity.in </p>
           <p style={{margin: 0}}>Phone: +91 9433207354</p>
+          <h4>primary contact person</h4>
+          <p style={{margin: 0, fontWeight: 'bold'}}>Satyajit Mukherjee </p>
+          <p style={{margin: 0}}>  Email ID:satya.jumath@gmail.com</p>
+          <p style={{margin: 0, }}>Phone: +91 6295732821</p>
+          <h4>Keynote</h4>
+          <p style={{margin: 0, fontWeight: 'bold'}}>Contact to oraganising secretary only for some special issue.otherwise contact to primary contact person.</p>
         </div>
         
       </div>

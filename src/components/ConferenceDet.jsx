@@ -41,7 +41,8 @@ export class ConferenceDet extends Component {
           The program of the conference will consist of Keynote Address, Plenary Lectures, Invited Talks, Contributory Talks and Poster Presentations. We are looking forward to welcoming you in Jadavpur University.
        
           In this connection we would like to proudly mention that Jadavpur University has long been acknowledged as a center of excellence in teaching and research and in its last survey The University has been ranked overall 12th among all Indian educational institutions and 4th in university, 13th in research among all state aided universities (NIRF) with a special mention to The Department of Mathematics.
-        </p>     
+        </p> 
+         <p style={{margin: 0}}> <a href="https://drive.google.com/file/d/1ZIXM5MMEfXSs1Y9bWQYhzfYS0AzC_y4x/view?usp=sharing">Poster for the ICMAAM'2023</a> </p>
       </div>
     )
   }

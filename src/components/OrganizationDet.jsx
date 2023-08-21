@@ -24,12 +24,12 @@ export class OrganizationDet extends Component {
         <div className="d-flex justify-content-around text-left flex-column flex-lg-row flex-md-row ">
             <div className="col-lg-2 p-2">
                 <h4 className="text-primary">Chief Patron</h4>
-                <p className="text-danger" style={{fontSize: 20, margin: 0}}>Prof. (Dr.) Amitava Dutta</p>
-                <p className="" style={{color: '#f54254',}} >Pro-Vice Chancellor, Jadavpur University</p>
+                <p className="text-danger" style={{fontSize: 20, margin: 0}}>Prof. (Dr.) Prof. Buddhadeb Sau </p>
+                <p className="" style={{color: '#f54254',}} >Vice Chancellor, Jadavpur University</p>
             </div>
             <div className="col-lg-3 p-3">
                 <h4 className="text-primary">Patron</h4>
-                <p className="text-danger" style={{fontSize: 20, margin: 0}}>Prof. (Dr.) Chiranjib Bhattacharya</p>
+                <p className="text-danger" style={{fontSize: 20, margin: 0}}>Prof. (Dr.) Amitava Dutta </p>
                 <p className="" style={{color: '#f54254'}}>Pro-Vice Chancellor, Jadavpur University</p>
                 <p className='text-danger' style={{fontSize: 20, margin: 0}}>Prof. (Dr.) Subenoy Chakraborty.</p>
                 <p className='' style={{color: '#f54254'}}>Dean, Faculty of Science, Jadavpur University</p>

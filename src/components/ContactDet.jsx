@@ -18,7 +18,7 @@ export class ContactDet extends Component {
           <p style={{margin: 0}}>  Email ID: satya.jumath@gmail.com</p>
           <p style={{margin: 0, }}>Phone: +91 8145589057</p>
           <ul style={{color: 'Black'}}>
-              <li><p style={{margin: 0, fontWeight: 'bold'}}>Note: Contact to oraganising secretary only for some special issue.otherwise contact to primary contact person.</p></li>
+              <li><p style={{margin: 0, fontWeight: 'bold'}}>Note: Contact to oraganising secretary only for some special issue.Otherwise contact to primary contact person.</p></li>
             </ul>
           
         </div>

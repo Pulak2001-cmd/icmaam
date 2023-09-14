@@ -37,6 +37,7 @@ export class RegistrationDet extends Component {
             <ul style={{color: 'white'}}>
               <li>Registration fees are not required especially for plenary and invited speakers.</li>
               <li>Participants are requested to kindly note that the registration fees can be paid in offline mode also but submitting the duly filled Google form is mandatory for confirmation of the participation.</li>
+              <li>Registration fees can be paid in the registration desk on the Conference day.</li>
             </ul>
             {/* <p style={{color: 'white'}}>Faculty/ Academician (Without accomodation): Rs. 4,000/-(Indian)</p>
             <p style={{color: 'white'}}>Research Scholar: Rs. 3,000/-(Indian)</p>
@@ -55,7 +56,7 @@ export class RegistrationDet extends Component {
                   <p>A/C No- 35779562283
                     <br/>IFSC- SBIN0000093
                     <br/>SBI Jadavpur University Branch</p>
-                <p>Step 3: Fill up the form before 15th septembar 2023 and upload the screenshot in the form.</p>
+                <p>Step 3: Due to the huge demand from the Participants from diferent region,the last date of registration is extended upto 24th of Septembar 2023. </p>
             </div>
             <Link target="_blank" to="https://docs.google.com/forms/d/e/1FAIpQLSfQw8wHPuiUZpQWRb_yMwYyuuuh7KIi4p2df-_sy7BQk467SQ/viewform?usp=pp_url "><button className="btn btn-success m-2">Go To Form</button></Link>
         </div>

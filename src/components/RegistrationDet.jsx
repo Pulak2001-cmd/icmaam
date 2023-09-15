@@ -51,7 +51,7 @@ export class RegistrationDet extends Component {
             <div className="bg-warning p-3 rounded m-3 justify-content-around">
                 <h2>Instructions:</h2>
                 <p>Step 1: Check registration fee for your category</p>
-                <p>Step 2: Payment of Registration fees will be accepted only in cash . we are requested to everyone, avoid paying registration fees  in online mode</p>
+                <p>Step 2: Payment of Registration fees will be accepted only in cash at Registration counter on Conference day. we are requested to everyone, avoid paying registration fees  in online mode</p>
                 <p>Step 3: Due to the huge demand from the Participants from diferent region,the last date of registration is extended upto 24th of Septembar 2023. </p>
             </div>
             <Link target="_blank" to="https://docs.google.com/forms/d/e/1FAIpQLSfQw8wHPuiUZpQWRb_yMwYyuuuh7KIi4p2df-_sy7BQk467SQ/viewform?usp=pp_url "><button className="btn btn-success m-2">Go To Form</button></Link>
